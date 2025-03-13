@@ -1,5 +1,3 @@
-%%bash
-cat << 'EOF' > AWS_Setup_Guide.md
 # AWS Account Setup and Security Best Practices
 
 This guide outlines the steps required to set up an AWS account and highlights key security best practices. It covers the process of account creation, essential security measures such as IAM roles, multi-factor authentication (MFA), and billing monitoring, and explains why security is critical when establishing your AWS environment.
@@ -61,8 +59,6 @@ Security is paramount when creating an AWS account. Following best practices not
 - **Maintain Trust and Reliability:**  
   Ensuring the security of your cloud infrastructure builds trust with your users and partners, and maintains the integrity of your services.
 
-EOF
+---
 
-# Download the file (this works in Google Colab)
-from google.colab import files
-files.download('AWS_Setup_Guide.md')
+By following these steps and implementing these security best practices, you'll create a strong foundation for a secure and efficient AWS environment.
